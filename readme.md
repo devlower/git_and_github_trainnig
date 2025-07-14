@@ -21,6 +21,9 @@ Este é um passo-a-passo dos principais conhecimentos necessários para poder ut
     - [5.1 Versionando pela interface do VS Code](#51-versionando-pela-interface-do-vs-code)
     - [5.2 Versionando pelo Terminal / Git Bash](#52-versionando-pelo-terminal--git-bash)
 - [6. Criando *Branches* (Ramificações)](#6-criando-branches-ramificações)
+    - [6.1 Criando *Branches* utilizando a interface gráfica do VS Code](#61-criando-branches-utilizando-a-interface-gráfica-do-vs-code)
+        - [6.1.1 Alternativamente pelo Github](#611-alternativamente-pelo-github)
+    - [6.2 Criando *Branches* pelo terminal](#62-criando-branches-pelo-terminal)
 - [Extra. Cheat Sheet dos comandos mais comuns do Git](#extra-cheat-sheet-dos-comandos-mais-comuns-do-git)
 
 ---
@@ -282,7 +285,7 @@ Finalizando as alterações que deseja, você irá 'apresentá-las' para o versi
     <img src="./src/images/sc_03.png" alt="Github clone repo" width="420">
 </p> 
 
-Repare na árvora de versionamento onde o indicativo azul se refere ao seu versionamento local, enquanto que o indicativo rosa se refere ao versionamento remoto no Github
+Repare na árvore de versionamento onde o indicativo azul se refere ao seu versionamento local, enquanto que o indicativo rosa se refere ao versionamento remoto no Github
 
 <p align="center">
     <img src="./src/images/sc_04.png" alt="Github clone repo" width="420">
@@ -322,7 +325,7 @@ Para visualizar rapidamente o estado atual do seu repositório local realize o c
 > git status
 > ```
 
-Repare que o *output* te dá um relatório basico
+Repare que o *output* te dá um relatório básico
 
 <p align="center">
     <img src="./src/images/sc_08.png" alt="Github clone repo" width="1080">
@@ -383,9 +386,9 @@ Caso o desenvolvimento do projeto seja compartilhado com outros colegas, no cen�
 
 ## 6. Criando *Branches* (Ramificações)
 
-Branches são ramificações independentes da linha principal de desenvolvimento (geralmente chamada de `main`). Elas permitem que você trabalhe em novas funcionalidades, correções de bugs ou experimentos de forma isolada, sem afetar o código principal do projeto.
+*Branches* são ramificações independentes da linha principal de desenvolvimento (geralmente chamada de `main`). Elas permitem que você trabalhe em novas funcionalidades, correções de bugs ou experimentos de forma isolada, sem afetar o código principal do projeto.
 
-Criar e gerenciar branches é uma das práticas mais poderosas do Git, pois facilita o trabalho em equipe, a organização do código e o controle de versões. Nesta seção, você aprenderá como criar, trocar, listar e excluir branches, além de entender seu papel no fluxo de trabalho Git.
+Criar e gerenciar *branches* é uma das práticas mais poderosas do Git, pois facilita o trabalho em equipe, a organização do código e o controle de versões. Nesta seção, você aprenderá como criar, trocar, listar e excluir branches, além de entender seu papel no fluxo de trabalho Git.
 
 ### 6.1 Criando *Branches* utilizando a interface gráfica do VS Code
 
@@ -419,7 +422,7 @@ Repare que agora a informação da sua *branch* no canto inferior esquerdo mudou
     <img src="./src/images/branch_05.png" alt="Github clone repo" width="420">
 </p> 
 
-Dentro da sua nova branch, realize as funções e alterações que deseja, siga o processo de 'commitar' e 'sincar' com o repositório remoto e note que o indicador laranja se refere a *branch main* quue está 'atrás' da *brach* nova (indicativo em azul)
+Dentro da sua nova *branch*, realize as funções e alterações que deseja, siga o processo de '*commitar*' e 'sincar' com o repositório remoto e note que o indicador laranja se refere a *branch main* que está 'atrás' da *branch* nova (indicativo em azul)
 
 <p align="center">
     <img src="./src/images/branch_06.png" alt="Github clone repo" width="420">
@@ -518,11 +521,11 @@ Para alternar entre *branches* utilize o `switch` ou o `checkout`
     <img src="./src/images/branch_15.png" alt="Github clone repo" width="1080">
 </p> 
 
-Siga normalmente com sua modificações e realize os versionamentos. Note que quando você quiser dar *push* para o repositório remoto, é necessário inserir o nome da sua nova *branch*
+Siga normalmente com suas modificações e realize os versionamentos. Note que quando você quiser dar *push* para o repositório remoto, é necessário inserir o nome da sua nova *branch*
 
 > Bash/Git Bash
 > ``` sh
-> git push origin <nova da sua branch>
+> git push origin <nome da sua branch>
 > ```
 
 <p align="center">
@@ -533,7 +536,7 @@ Para realizar o *merge*, volte para a *main* e em seguida execute o comando de *
 
 > Bash/Git Bash
 > ``` sh
-> git merge <nome da sua branch
+> git merge <nome da sua branch>
 > ```
 
 <p align="center">
