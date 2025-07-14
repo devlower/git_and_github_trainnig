@@ -458,31 +458,31 @@ Clique nos 'três pontinhos' do *Source Control* e clique na opção *'Branch'*,
 
 #### 6.1.1 Alternativamente pelo Github
 
-11. Após criar uma nova *branch* pelo VS Code, e realizar *commits* e *pushes* para o repositório remoto do Github, aparecerá na página do seu projeto uma mensagem indicando que alterações foram realizadas e uma opção de comparar e realizar um *pull request* (PR). Clique na opção indicada
+1. Após criar uma nova *branch* pelo VS Code, e realizar *commits* e *pushes* para o repositório remoto do Github, aparecerá na página do seu projeto uma mensagem indicando que alterações foram realizadas e uma opção de comparar e realizar um *pull request* (PR). Clique na opção indicada
 
 <p align="center">
     <img src="./src/images/branch_08.png" alt="Github clone repo" width="1080">
 </p> 
 
-12. Aqui você pode incluir uma mensagem descritiva de solicitação de mescla com a *main*. Em seguida crie o seu PR
+2. Aqui você pode incluir uma mensagem descritiva de solicitação de mescla com a *main*. Em seguida crie o seu PR
 
 <p align="center">
     <img src="./src/images/branch_09.png" alt="Github clone repo" width="1080">
 </p> 
 
-13. Em seguida será verificado se a sua mescla com a *main* não existe nenhum conflito com o código já existente por lá. Se esta verificação retornar com sucesso, habilitará uma opção de *merge pull request*, clique para prosseguir
+3. Em seguida será verificado se a sua mescla com a *main* não existe nenhum conflito com o código já existente por lá. Se esta verificação retornar com sucesso, habilitará uma opção de *merge pull request*, clique para prosseguir
 
 <p align="center">
     <img src="./src/images/branch_10.png" alt="Github clone repo" width="1080">
 </p> 
 
-14. Descreva os pareceres do *merge*, indicando (se houver) informações adicionais e então confirme para finalizar
+4. Descreva os pareceres do *merge*, indicando (se houver) informações adicionais e então confirme para finalizar
 
 <p align="center">
     <img src="./src/images/branch_11.png" alt="Github clone repo" width="1080">
 </p> 
 
-15. Após este processo, para ser refletido no seu repositório local é necessário sincronizá-lo com o remoto. No VS Code clicar nos 'três pontinhos' em *Source Control* e selecionar a opção *'Pull'*.
+5. Após este processo, para ser refletido no seu repositório local é necessário sincronizá-lo com o remoto. No VS Code clicar nos 'três pontinhos' em *Source Control* e selecionar a opção *'Pull'*.
 
 Alternativamente, clique nas setinhas 'em ciclo' na sua *branch* no canto inferior esquerdo
 
