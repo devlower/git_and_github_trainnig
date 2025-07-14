@@ -273,44 +273,44 @@ Com seu projeto aberto no VS Code, note o ícone de '*Source Control*' no canto 
     <img src="./src/images/sc_01.png" alt="Github clone repo" width="420">
 </p> 
 
-Conforme são realizadas alterações no seu projeto, elas são 'trackeadas' na seção de '*Changes*'
+1. Conforme são realizadas alterações no seu projeto, elas são 'trackeadas' na seção de '*Changes*'
 
 <p align="center">
     <img src="./src/images/sc_02.png" alt="Github clone repo" width="420">
 </p> 
 
-Finalizando as alterações que deseja, você irá 'apresentá-las' para o versionamento clicando no ícone de `+`, adicione uma mensagem descritiva acerca das alterações realizadas e em seguida clique no botão '*Commit*'. Desta maneira o seu código estará versionado **localmente**
+2. Finalizando as alterações que deseja, você irá 'apresentá-las' para o versionamento clicando no ícone de `+`, adicione uma mensagem descritiva acerca das alterações realizadas e em seguida clique no botão '*Commit*'. Desta maneira o seu código estará versionado **localmente**
 
 <p align="center">
     <img src="./src/images/sc_03.png" alt="Github clone repo" width="420">
 </p> 
 
-Repare na árvore de versionamento onde o indicativo azul se refere ao seu versionamento local, enquanto que o indicativo rosa se refere ao versionamento remoto no Github
+3. Repare na árvore de versionamento onde o indicativo azul se refere ao seu versionamento local, enquanto que o indicativo rosa se refere ao versionamento remoto no Github
 
 <p align="center">
     <img src="./src/images/sc_04.png" alt="Github clone repo" width="420">
 </p> 
 
-Para que o repositório remoto seja atualizado, clique em *`Sync Changes`*
+4. Para que o repositório remoto seja atualizado, clique em *`Sync Changes`*
 
 <p align="center">
     <img src="./src/images/sc_05.png" alt="Github clone repo" width="420">
 </p> 
 
-Assim os dois indicativos estarão sincronizados, tanto o local quanto o remoto
+5. Assim os dois indicativos estarão sincronizados, tanto o local quanto o remoto
 
 <p align="center">
     <img src="./src/images/sc_06.png" alt="Github clone repo" width="420">
 </p> 
 
-Caso o desenvolvimento do projeto seja compartilhado com outros colegas, no cenário onde algum colega tenha realizado alguma alteração no código e versionado o repositório remoto, para que seu repositório local reflita e 'puxe' as mudanças realizadas, clique nos 'três pontinhos' do seu *`Source Control`* e clique na opção *`Pull`*:
+6. Caso o desenvolvimento do projeto seja compartilhado com outros colegas, no cenário onde algum colega tenha realizado alguma alteração no código e versionado o repositório remoto, para que seu repositório local reflita e 'puxe' as mudanças realizadas, clique nos 'três pontinhos' do seu *`Source Control`* e clique na opção *`Pull`*:
 
 <p align="center">
     <img src="./src/images/sc_13.png" alt="Github clone repo" width="420">
 </p> 
 
 ### 5.2 Versionando pelo Terminal / Git Bash
-Com seu projeto aberto no VS Code, faça o comando `Ctrl + J` para que abra o terminal na raíz do projeto
+1. Com seu projeto aberto no VS Code, faça o comando `Ctrl + J` para que abra o terminal na raíz do projeto
 
 - **Caso esteja no Windows, será necessário um passo a mais, clique no *dropdown* para você poder selecionar o terminal do Git Bash para dar sequencia nos comandos**
 
@@ -318,7 +318,7 @@ Com seu projeto aberto no VS Code, faça o comando `Ctrl + J` para que abra o te
     <img src="./src/images/sc_07.png" alt="Github clone repo" width="1080">
 </p> 
 
-Para visualizar rapidamente o estado atual do seu repositório local realize o comando:
+2. Para visualizar rapidamente o estado atual do seu repositório local realize o comando:
 
 > Bash/Git Bash
 > ``` sh
@@ -331,7 +331,7 @@ Repare que o *output* te dá um relatório básico
     <img src="./src/images/sc_08.png" alt="Github clone repo" width="1080">
 </p> 
 
-Em seguida é necessário 'apresentar' as alterações realizadas para o versionamento, utilizando o comando
+3. Em seguida é necessário 'apresentar' as alterações realizadas para o versionamento, utilizando o comando
 
 > Bash/Git Bash
 > ``` sh
@@ -347,7 +347,7 @@ OU
     <img src="./src/images/sc_09.png" alt="Github clone repo" width="1080">
 </p> 
 
-Com as mudanças adicionadas ao versionamento, crie um *commit* com uma mensagem descritiva das alterações realizadas no código
+4. Com as mudanças adicionadas ao versionamento, crie um *commit* com uma mensagem descritiva das alterações realizadas no código
 
 > Bash/Git Bash
 > ``` sh
@@ -360,7 +360,7 @@ Neste momento você está com o seu repositório **local** versionado
     <img src="./src/images/sc_10.png" alt="Github clone repo" width="1080">
 </p> 
 
-'Sincronizando' o repositório local com o repositório remoto do Github:
+5. 'Sincronizando' o repositório local com o repositório remoto do Github:
 
 > Bash/Git Bash
 > ``` sh
@@ -371,7 +371,7 @@ Neste momento você está com o seu repositório **local** versionado
     <img src="./src/images/sc_11.png" alt="Github clone repo" width="1080">
 </p> 
 
-Caso o desenvolvimento do projeto seja compartilhado com outros colegas, no cenário onde algum colega tenha realizado alguma alteração no código e versionado o repositório remoto, para que seu repositório local reflita e 'puxe' as mudanças realizadas, utilize o comando:
+6. Caso o desenvolvimento do projeto seja compartilhado com outros colegas, no cenário onde algum colega tenha realizado alguma alteração no código e versionado o repositório remoto, para que seu repositório local reflita e 'puxe' as mudanças realizadas, utilize o comando:
 
 > Bash/Git Bash
 > ``` sh
@@ -392,43 +392,43 @@ Criar e gerenciar *branches* é uma das práticas mais poderosas do Git, pois fa
 
 ### 6.1 Criando *Branches* utilizando a interface gráfica do VS Code
 
-No canto inferior esquerdo encontre a sua *branch* atual, clique para que abra mais opções
+1. No canto inferior esquerdo encontre a sua *branch* atual, clique para que abra mais opções
 
 <p align="center">
     <img src="./src/images/branch_01.png" alt="Github clone repo" width="420">
 </p> 
 
-Clique na opção *'Create new branch from...'*
+2. Clique na opção *'Create new branch from...'*
 
 <p align="center">
     <img src="./src/images/branch_02.png" alt="Github clone repo" width="1080">
 </p> 
 
-Clique na *branch* que deseja criar uma 'cópia'
+3. Clique na *branch* que deseja criar uma 'cópia'
 
 <p align="center">
     <img src="./src/images/branch_03.png" alt="Github clone repo" width="1080">
 </p> 
 
-Insira o nome da sua nova *branch*, geralmente especificando qual a sua utilidade (fix, feat, refactor, etc)
+4. Insira o nome da sua nova *branch*, geralmente especificando qual a sua utilidade (fix, feat, refactor, etc)
 
 <p align="center">
     <img src="./src/images/branch_04.png" alt="Github clone repo" width="1080">
 </p> 
 
-Repare que agora a informação da sua *branch* no canto inferior esquerdo mudou para a nova criada
+5. Repare que agora a informação da sua *branch* no canto inferior esquerdo mudou para a nova criada
 
 <p align="center">
     <img src="./src/images/branch_05.png" alt="Github clone repo" width="420">
 </p> 
 
-Dentro da sua nova *branch*, realize as funções e alterações que deseja, siga o processo de '*commitar*' e 'sincar' com o repositório remoto e note que o indicador laranja se refere a *branch main* que está 'atrás' da *branch* nova (indicativo em azul)
+6. Dentro da sua nova *branch*, realize as funções e alterações que deseja, siga o processo de '*commitar*' e 'sincar' com o repositório remoto e note que o indicador laranja se refere a *branch main* que está 'atrás' da *branch* nova (indicativo em azul)
 
 <p align="center">
     <img src="./src/images/branch_06.png" alt="Github clone repo" width="420">
 </p> 
 
-Com todas as alterações realizada e com uma versão estável desta *branch*, é possível 'mergiar' (mesclar) as alterações diretamente na *main*.
+7. Com todas as alterações realizada e com uma versão estável desta *branch*, é possível 'mergiar' (mesclar) as alterações diretamente na *main*.
 
 Clique nos 'três pontinhos' do *Source Control* e clique na opção *'Branch'*, depois em *'Merge'* e em seguida selecione a *branch main*
 
@@ -436,19 +436,19 @@ Clique nos 'três pontinhos' do *Source Control* e clique na opção *'Branch'*,
     <img src="./src/images/sc_13.png" alt="Github clone repo" width="420">
 </p> 
 
-Retornando para a *main*
+8. Retornando para a *main*
 
 <p align="center">
     <img src="./src/images/branch_12.png" alt="Github clone repo" width="1080">
 </p> 
 
-Note que no *Source Control Graph* as mudanças foram 'mergiadas' na *main*
+9. Note que no *Source Control Graph* as mudanças foram 'mergiadas' na *main*
 
 <p align="center">
     <img src="./src/images/branch_13.png" alt="Github clone repo" width="420">
 </p> 
 
-Limpando as *branches* não utilizadas. Após as alterações realizadas e 'mergiadas', exclua a *branch*. Clique nos 'três pontinhos' do *Source Control*, opção *'Branch'*, em seguida *'Delete'* e então selecione o nome da *branch* a ser excluída. 
+10. Limpando as *branches* não utilizadas. Após as alterações realizadas e 'mergiadas', exclua a *branch*. Clique nos 'três pontinhos' do *Source Control*, opção *'Branch'*, em seguida *'Delete'* e então selecione o nome da *branch* a ser excluída. 
 
 OBS: É necessário estar em outra *branch* para realizar este processo, idealmente na *main*
 
@@ -458,31 +458,31 @@ OBS: É necessário estar em outra *branch* para realizar este processo, idealme
 
 #### 6.1.1 Alternativamente pelo Github
 
-Após criar uma nova *branch* pelo VS Code, e realizar *commits* e *pushes* para o repositório remoto do Github, aparecerá na página do seu projeto uma mensagem indicando que alterações foram realizadas e uma opção de comparar e realizar um *pull request* (PR). Clique na opção indicada
+11. Após criar uma nova *branch* pelo VS Code, e realizar *commits* e *pushes* para o repositório remoto do Github, aparecerá na página do seu projeto uma mensagem indicando que alterações foram realizadas e uma opção de comparar e realizar um *pull request* (PR). Clique na opção indicada
 
 <p align="center">
     <img src="./src/images/branch_08.png" alt="Github clone repo" width="1080">
 </p> 
 
-Aqui você pode incluir uma mensagem descritiva de solicitação de mescla com a *main*. Em seguida crie o seu PR
+12. Aqui você pode incluir uma mensagem descritiva de solicitação de mescla com a *main*. Em seguida crie o seu PR
 
 <p align="center">
     <img src="./src/images/branch_09.png" alt="Github clone repo" width="1080">
 </p> 
 
-Em seguida será verificado se a sua mescla com a *main* não existe nenhum conflito com o código já existente por lá. Se esta verificação retornar com sucesso, habilitará uma opção de *merge pull request*, clique para prosseguir
+13. Em seguida será verificado se a sua mescla com a *main* não existe nenhum conflito com o código já existente por lá. Se esta verificação retornar com sucesso, habilitará uma opção de *merge pull request*, clique para prosseguir
 
 <p align="center">
     <img src="./src/images/branch_10.png" alt="Github clone repo" width="1080">
 </p> 
 
-Descreva os pareceres do *merge*, indicando (se houver) informações adicionais e então confirme para finalizar
+14. Descreva os pareceres do *merge*, indicando (se houver) informações adicionais e então confirme para finalizar
 
 <p align="center">
     <img src="./src/images/branch_11.png" alt="Github clone repo" width="1080">
 </p> 
 
-Após este processo, para ser refletido no seu repositório local é necessário sincronizá-lo com o remoto. No VS Code clicar nos 'três pontinhos' em *Source Control* e selecionar a opção *'Pull'*.
+15. Após este processo, para ser refletido no seu repositório local é necessário sincronizá-lo com o remoto. No VS Code clicar nos 'três pontinhos' em *Source Control* e selecionar a opção *'Pull'*.
 
 Alternativamente, clique nas setinhas 'em ciclo' na sua *branch* no canto inferior esquerdo
 
@@ -492,14 +492,14 @@ Alternativamente, clique nas setinhas 'em ciclo' na sua *branch* no canto inferi
 
 ### 6.2 Criando *Branches* pelo terminal
 
-Cria uma nova *branch* com o comando
+1. Cria uma nova *branch* com o comando
 
 > Bash/Git Bash
 > ``` sh
 > git branch <nome da sua branch>
 > ```
 
-Utilize o comando a seguir para visualizar as opções de *branches* dispostas, a que está referenciada com um `*`, simboliza a branch em que está atualmente
+2. Utilize o comando a seguir para visualizar as opções de *branches* dispostas, a que está referenciada com um `*`, simboliza a branch em que está atualmente
 
 > Bash/Git Bash
 > ``` sh
@@ -510,7 +510,7 @@ Utilize o comando a seguir para visualizar as opções de *branches* dispostas, 
     <img src="./src/images/branch_14.png" alt="Github clone repo" width="1080">
 </p> 
 
-Para alternar entre *branches* utilize o `switch` ou o `checkout`
+4. Para alternar entre *branches* utilize o `switch` ou o `checkout`
 
 > Bash/Git Bash
 > ``` sh
@@ -521,7 +521,7 @@ Para alternar entre *branches* utilize o `switch` ou o `checkout`
     <img src="./src/images/branch_15.png" alt="Github clone repo" width="1080">
 </p> 
 
-Siga normalmente com suas modificações e realize os versionamentos. Note que quando você quiser dar *push* para o repositório remoto, é necessário inserir o nome da sua nova *branch*
+5. Siga normalmente com suas modificações e realize os versionamentos. Note que quando você quiser dar *push* para o repositório remoto, é necessário inserir o nome da sua nova *branch*
 
 > Bash/Git Bash
 > ``` sh
@@ -532,7 +532,7 @@ Siga normalmente com suas modificações e realize os versionamentos. Note que q
     <img src="./src/images/branch_16.png" alt="Github clone repo" width="1080">
 </p> 
 
-Para realizar o *merge*, volte para a *main* e em seguida execute o comando de *merge* indicando de qual *branch* o *merge* virá.
+6. Para realizar o *merge*, volte para a *main* e em seguida execute o comando de *merge* indicando de qual *branch* o *merge* virá.
 
 > Bash/Git Bash
 > ``` sh
@@ -543,7 +543,7 @@ Para realizar o *merge*, volte para a *main* e em seguida execute o comando de *
     <img src="./src/images/branch_17.png" alt="Github clone repo" width="1080">
 </p> 
 
-Finalize limpando a *branches* que não serão mais utilizadas
+7. Finalize limpando a *branches* que não serão mais utilizadas
 
 > Excluindo a *branch* **local**
 >
@@ -569,7 +569,7 @@ Finalize limpando a *branches* que não serão mais utilizadas
 
 ---
 
-## Extra. Cheat Sheet dos comandos mais comuns do Git
+## Extra. *Cheat Sheet* dos comandos mais comuns do Git
 
 | Comando                        | Descrição                                                                |
 |--------------------------------|--------------------------------------------------------------------------|
