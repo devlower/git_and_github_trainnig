@@ -450,7 +450,7 @@ Clique nos 'três pontinhos' do *Source Control* e clique na opção *'Branch'*,
 
 10. Limpando as *branches* não utilizadas. Após as alterações realizadas e 'mergiadas', exclua a *branch*. Clique nos 'três pontinhos' do *Source Control*, opção *'Branch'*, em seguida *'Delete'* e então selecione o nome da *branch* a ser excluída. 
 
-OBS: É necessário estar em outra *branch* para realizar este processo, idealmente na *main*
+**OBS: É necessário estar em outra *branch* para realizar este processo, idealmente na *main***
 
 <p align="center">
     <img src="./src/images/sc_13.png" alt="Github clone repo" width="420">
